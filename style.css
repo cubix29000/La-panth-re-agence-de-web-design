@@ -91,7 +91,7 @@ a:hover {
 }
 
 .texture-paper::before {
-    background: url("img/texture-paper.png");
+    background: url("img/texture-paper.webp");
     background-size: 280px 280px;
 }
 
@@ -122,6 +122,10 @@ a:hover {
 .d-bloc .a-btn,
 .d-bloc .navbar a,
 .d-bloc .navbar-brand,
+.d-bloc a .icon-sm,
+.d-bloc a .icon-md,
+.d-bloc a .icon-lg,
+.d-bloc a .icon-xl,
 .d-bloc h1 a,
 .d-bloc h2 a,
 .d-bloc h3 a,
@@ -472,7 +476,7 @@ button {
 }
 
 .icon-md {
-    font-size: 30px!important;
+    font-size: 48px!important;
 }
 
 .icon-lg {
@@ -512,7 +516,7 @@ button {
     position: fixed;
     bottom: 20px;
     right: 20px;
-    opacity: 0;
+    opacity: 1;
     z-index: 500;
     transition: all .3s ease-in-out;
 }
@@ -600,13 +604,13 @@ a[data-lightbox]:hover img {
 .next-lightbox:hover,
 .prev-lightbox:hover {
     opacity: 1.0;
-    color: #FFF;
+    color: #000000;
 }
 
 .next-lightbox,
 .prev-lightbox {
     font-size: 20px;
-    color: rgba(255, 255, 255, .9);
+    color: rgba(14, 14, 14, 0.9);
     background: rgba(0, 0, 0, .5);
     transition: all .2s ease-in-out;
     position: absolute;
@@ -626,7 +630,7 @@ a[data-lightbox]:hover img {
 }
 
 .snapshot-lb .modal-body {
-    padding-bottom: 45px;
+    padding-bottom: 48px;
 }
 
 .snapshot-lb .lightbox-caption {
@@ -635,19 +639,24 @@ a[data-lightbox]:hover img {
     background: none;
 }
 
-h1,
-h2,
+
 h3,
 h4,
 h5,
 h6,
-p,
 label,
-.btn,
-a {
+.btn
+ {
     font-family: "helvetica";
     font-weight: 400;
-    color: #575757!important;
+    color: #FFFFFF;
+}
+h2,
+p,
+a{
+    font-family:"Helvetica";
+    font-weight: 400;
+    color:#000000;
 }
 
 .container {
@@ -673,7 +682,7 @@ a {
 }
 
 p {
-    font-size: 11px;
+    font-size: 14px;
 }
 
 .tight-width-whitespace {
@@ -709,7 +718,7 @@ h3 {
     font-size: 15px;
     text-transform: uppercase;
     font-weight: 700;
-    color: #333333!important;
+    color: #000000!important;
 }
 
 .med-width-whitespace {
@@ -719,11 +728,11 @@ h3 {
 }
 
 h1 {
-    color: #333333!important;
+    color: #FFFFFF!important;
 }
 
 h4 {
-    color: #333333!important;
+    color: #000000!important;
 }
 
 .icons {
@@ -736,11 +745,11 @@ h4 {
 }
 
 .portfolio-thumb {
-    margin-bottom: 24px;
+    margin-bottom: 48px;
 }
 
 .portfolio-row {
-    margin-bottom: 44px;
+    margin-bottom: 48px;
     margin-top: 50px;
 }
 
@@ -763,33 +772,33 @@ h4 {
 }
 
 .bgc-dark-slate-blue {
-    background-color: #364577;
+    background-color: #000000;
 }
 
 .bgc-atomic-tangerine {
-    background-color: #FFFFFF;
+    background-color: #F3976C;
 }
 
 .tc-white {
-    color: #F3976C!important;
+    color: #FFFFFF;
 }
 
 .btn-atomic-tangerine {
     background: #F3976C;
-    color: #FFFFFF!important;
+    color: #FFF!important;
 }
 
 .btn-atomic-tangerine:hover {
     background: #c27956!important;
-    color: #FFFFFF!important;
+    color: #000000!important;
 }
 
 .ltc-white {
-    color: #FFFFFF!important;
+    color:#FFFFFF;
 }
 
 .ltc-white:hover {
-    color: #cccccc!important;
+    color:#000000!important;
 }
 
 .ltc-atomic-tangerine {
@@ -801,8 +810,8 @@ h4 {
 }
 
 .icon-dark-slate-blue {
-    color: #364577!important;
-    border-color: #364577!important;
+    color: #000000!important;
+    border-color: #000000!important;
 }
 
 .bg-dots-bg {
@@ -818,7 +827,7 @@ h4 {
 }
 
 .bg-presentation {
-    background-image: url("img/image-de-presentation.bmp");
+    background-image: url("img/image-de-presentation.jpg");
 }
 
 @media (max-width: 1024px) {
@@ -868,9 +877,6 @@ h4 {
         overflow-x: hidden;
         position: relative;
     }
-    .bloc {
-      padding: 0%;
-    }
     .bloc-group,
     .bloc-group .bloc {
         display: block;
@@ -879,7 +885,6 @@ h4 {
     .bloc-fill-screen .fill-bloc-top-edge,
     .bloc-fill-screen .fill-bloc-bottom-edge {
         padding: 0 20px;
-       
     }
 }
 
@@ -1033,4 +1038,34 @@ h4 {
     .bloc-mob-center-text {
         text-align: center;
     }
+}
+.btn-d{
+    color: #FFFFFF!important;
+}
+.black ,.icon-md{
+    color: #000000!important;
+}
+.bloc__title-h2{
+    max-width: 62rem;
+    margin: auto;
+}
+.citation{
+    font-size: 18px;
+    max-width: 51rem;
+    margin: auto;
+}
+.citation>span{
+    font-weight: bold;
+    font-style: italic;
+}
+.portfolio__title-h2{
+    max-width: 42rem;
+    margin:auto;
+}
+.img-responsive{
+    margin: auto;
+}
+.flex{
+    display: flex;
+    justify-content: center;
 }
