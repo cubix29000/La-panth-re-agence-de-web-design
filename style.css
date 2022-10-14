@@ -4,7 +4,7 @@ body {
     background: #FFF;
     overflow-x: hidden;
     -webkit-font-smoothing: antialiased;
-    -moz-osx-font-smoothing: grayscale;
+    -moz-osx-font-smoothing: black;
 }
 
 a,
@@ -348,7 +348,7 @@ a:hover {
 
 .navbar-toggle .icon-bar {
     background-color: rgba(0, 0, 0, .5);
-    width: 26px;
+    width: 48px;
 }
 
 .nav-invert .navbar .nav {
@@ -404,7 +404,7 @@ a:hover {
 }
 
 .nav > li > .dropdown a {
-    background: none!important;
+    background: none!;
     display: block;
     padding: 14px 15px;
 }
@@ -476,7 +476,7 @@ button {
 }
 
 .icon-md {
-    font-size: 30px!important;
+    font-size: 48px!important;
 }
 
 .icon-lg {
