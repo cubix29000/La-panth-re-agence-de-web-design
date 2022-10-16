@@ -1066,6 +1066,7 @@ h4 {
 }
 .img-responsive{
     margin: auto;
+    height:150px;
 }
 .flex{
     display: flex;
