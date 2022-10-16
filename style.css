@@ -644,7 +644,6 @@ h3,
 h4,
 h5,
 h6,
-label,
 .btn
  {
     font-family: "helvetica";
@@ -652,6 +651,7 @@ label,
     color: #FFFFFF;
 }
 h2,
+label,
 p,
 a{
     font-family:"Helvetica";
@@ -697,7 +697,7 @@ p {
 
 .cta-hero {
     margin-top: 22px;
-    color: #FFFFFF!important;
+    color: #000000;
     text-transform: uppercase;
     padding: 12px 28px 12px 28px;
     font-size: 16px;
@@ -785,7 +785,7 @@ h4 {
 
 .btn-atomic-tangerine {
     background: #F3976C;
-    color: #FFF!important;
+    color: #000000;
 }
 
 .btn-atomic-tangerine:hover {
