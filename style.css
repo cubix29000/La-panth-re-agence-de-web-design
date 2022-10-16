@@ -135,8 +135,8 @@ a:hover {
  {
     color: rgba(255, 255, 255, .6);
 }
-.d-bloc p a{
-    color: #00000;
+.d-bloc p a,{
+    color: #000000;}
 
 .d-bloc .a-btn:hover,
 .d-bloc .navbar a:hover,
