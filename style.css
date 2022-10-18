@@ -132,11 +132,9 @@ a:hover {
 .d-bloc h4 a,
 .d-bloc h5 a,
 .d-bloc h6 a,
- {
+.d-bloc p a {
     color: rgba(255, 255, 255, .6);
 }
-.d-bloc p a,{
-    color: #000000;}
 
 .d-bloc .a-btn:hover,
 .d-bloc .navbar a:hover,
@@ -782,7 +780,7 @@ h4 {
 }
 
 .tc-white {
-    color: #FFFFFF;
+    color: #000000;
 }
 
 .btn-atomic-tangerine {
@@ -1066,7 +1064,6 @@ h4 {
 }
 .img-responsive{
     margin: auto;
-    height:150px;
 }
 .flex{
     display: flex;
