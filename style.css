@@ -285,6 +285,7 @@ a:hover {
 
 #bloc-1-hero h1 {
     font-size: 32px;
+    color: #FFFFFF;
 }
 
 .navbar {
@@ -780,7 +781,7 @@ h4 {
 }
 
 .tc-white {
-    color: #000000;
+    color:#FFFFFF;
 }
 
 .btn-atomic-tangerine {
