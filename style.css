@@ -439,6 +439,7 @@ nav .caret {
 .mg-md {
     margin-top: 10px;
     margin-bottom: 20px;
+    margin-right: 10px;
 }
 
 .mg-lg {
@@ -631,7 +632,7 @@ a[data-lightbox]:hover img {
 }
 
 .snapshot-lb .modal-body {
-    padding-bottom: 48px;
+    padding-bottom: 80px;
 }
 
 .snapshot-lb .lightbox-caption {
