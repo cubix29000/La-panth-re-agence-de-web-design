@@ -92,7 +92,7 @@ a:hover {
 /*
 .texture-paper::before {
     background: url("img/texture-paper.jpg");
-    background-size: 300px 300px;
+    background-size: 280px 280px;
 }
 */
 .b-parallax {
@@ -464,6 +464,9 @@ nav .caret {
 
 button {
     outline: none!important;
+    background: initial;
+    border-radius: 40px;
+    padding: inherit;
 }
 
 .btn-rd {
@@ -788,6 +791,10 @@ h4 {
 .btn-atomic-tangerine {
     background: #F3976C;
     color: #000000;
+
+}
+.btn-atomic-tangerine:focus {
+    border: solid black 2px;
 }
 
 .btn-atomic-tangerine:hover {
