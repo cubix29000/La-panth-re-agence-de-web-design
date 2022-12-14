@@ -42,7 +42,7 @@
 			<div class="collapse navbar-collapse navbar-1 special-dropdown-nav">
 				<ul class="site-navigation nav navbar-nav">
 					<li>
-						<a href="index.html">Accueil</a>
+						<div tabindex="0" ><a href="index.html">Accueil</a></tabindex>
 					</li>
 					<li>
 						<a href="contact.html">contact</a>
@@ -78,25 +78,25 @@
 		<div class="row">
 			<div class="col-sm-6">
 				<form id="form_1">
-					<div tabindex="1" class="form-group">
+					<div tabindex="-1" class="form-group">
 						<label class="label-grand" for="name">
 						 Nom
 						<input id="name" class="form-control" type="text" required>
 						</label>
 					</div>
-					<div tabindex="2" class="form-group">
+					<div tabindex="-2" class="form-group">
 						<label class="label-grand" for="email" >
 							Adresse email
 						</label>
 						<input id="email" class="form-control" type="email" required>
 					</div>
-					<div tabindex="3" class="form-group">
+					<div tabindex="-3" class="form-group">
 						<label class="label-grand">
 							Comment nous avez-vous connu ?
 						</label>
-						<input class="form-control" type="email" required>
+						<input class="form-control" type="text" required>
 					</div>
-					<div tabindex="4" class="form-group">
+					<div tabindex="-4" class="form-group">
 						<label class="label-grand" for="message">
 							Brief de votre projet (Ajoutez autant de détails que nécessaire)<br>
 						</label>
